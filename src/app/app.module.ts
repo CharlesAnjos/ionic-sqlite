@@ -9,11 +9,13 @@ import { Toast } from '@ionic-native/toast';
 
 import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
+import { AddDataPage } from '../pages/add-data/add-data';
 
 @NgModule({
   declarations: [
     MyApp,
-    HomePage
+    HomePage,
+    AddDataPage
   ],
   imports: [
     BrowserModule,
@@ -22,7 +24,8 @@ import { HomePage } from '../pages/home/home';
   bootstrap: [IonicApp],
   entryComponents: [
     MyApp,
-    HomePage
+    HomePage,
+    AddDataPage
   ],
   providers: [
     StatusBar,
