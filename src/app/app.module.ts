@@ -10,12 +10,14 @@ import { Toast } from '@ionic-native/toast';
 import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
 import { AddDataPage } from '../pages/add-data/add-data';
+import { EditDataPage } from '../pages/edit-data/edit-data';
 
 @NgModule({
   declarations: [
     MyApp,
     HomePage,
-    AddDataPage
+    AddDataPage,
+    EditDataPage
   ],
   imports: [
     BrowserModule,
@@ -25,7 +27,8 @@ import { AddDataPage } from '../pages/add-data/add-data';
   entryComponents: [
     MyApp,
     HomePage,
-    AddDataPage
+    AddDataPage,
+    EditDataPage
   ],
   providers: [
     StatusBar,
